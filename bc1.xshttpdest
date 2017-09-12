@@ -1,0 +1,13 @@
+// To define an HTTP destination, you can use the following code.
+
+host = "blockchain.info";
+port = 443;  
+description = "SAP HANA Blockchain Connector";
+useSSL = true;
+//benötigt keine Trust Store configuration
+sslAuth = anonymous;
+authType = none;
+useProxy = false;
+proxyHost = "";
+proxyPort = 0;
+timeout = 0;
